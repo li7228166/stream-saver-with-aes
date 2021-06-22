@@ -1,0 +1,53 @@
+<div style="border: 1px solid #e0e0e0;padding: 20px;margin: 20px">
+    <p>
+        <button (click)="download('test.txt',3221225472)">test-3G</button>
+    </p>
+    <p>
+        <button (click)="download('test.mp4',395419427)">test-300M</button>
+    </p>
+    <p>
+        <button (click)="download('16-4M.jpg',4325304)">test-4M</button>
+    </p>
+</div>
+
+<div style="border: 1px solid #e0e0e0;padding: 20px;margin: 20px">
+    <p>
+
+        <button (click)="download('test_jianmi.txt',3221225504,'1')">解密下载-3G</button>
+    </p>
+    <p>
+        <button (click)="download('test_jiami.mp4',395419456,'1')">解密下载-300M</button>
+    </p>
+    <p>
+        <button (click)="download('jiami.jpg',4325328,'2')">解密下载-4M</button>
+    </p>
+</div>
+
+<div style="border: 1px solid #e0e0e0;padding: 20px;margin: 20px">
+    <p>
+        <a href="/proxy/examples/test.txt" download="test.txt">浏览器原生下载-3G</a>
+    </p>
+    <p>
+        <a href="/proxy/examples/test.mp4" download="test.mp4">浏览器原生下载-300M</a>
+    </p>
+    <p>
+        <a href="/proxy/examples/16-4M.jpg" download="16-4M.jpg">浏览器原生下载-4M</a>
+    </p>
+    <p>
+        <button (click)="download('32559148990451748.txt',64,'1')">解密下载Txt - 36byte</button>
+    </p>
+    <p>
+        <button (click)="download('22431317855818601.txt',64,'1')">解密下载Txt - 35byte</button>
+    </p>
+    <p>
+        <button (click)="batchDownload()">批量ZIP下载</button>
+    </p>
+    <p>
+        <button (click)="batchDownload1()">批量ZIP解密下载</button>
+    </p>
+    <p>
+        <button (click)="getData()">getData</button>
+    </p>
+</div>
+<div id="test"></div>
+

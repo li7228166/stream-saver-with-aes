@@ -1,0 +1,10 @@
+.idea
+debug.log
+npm-debug.log
+node_modules
+coverage
+cjs
+esm
+umd
+types
+index.d.ts

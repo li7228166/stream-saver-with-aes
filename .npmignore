@@ -1,0 +1,17 @@
+.idea
+debug.log
+npm-debug.log
+node_modules
+example
+coverage
+src
+.editorconfig
+.gitignore
+.npmignore
+index.ts
+common.ts
+zip.ts
+package-lock.json
+tsconfig.cjs.json
+tsconfig.esm.json
+tsconfig.json
