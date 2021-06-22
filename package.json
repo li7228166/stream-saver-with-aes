@@ -21,6 +21,10 @@
     ],
     "author": "lxp",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/li7228166/stream-saver-with-aes/issues"
+    },
+    "homepage": "https://github.com/li7228166/stream-saver-with-aes#readme",
     "dependencies": {
     },
     "devDependencies": {
