@@ -23,7 +23,7 @@ export default class FileSaveRegister {
     }) {
         // 注册service worker，并初始化逻辑
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js', {scope}).then(swReg => {
+            navigator.serviceWorker.register('/sswa-sw.js', {scope}).then(swReg => {
                 if (swReg.installing) {
                     window.location.reload();
                 } else if (swReg.active) {

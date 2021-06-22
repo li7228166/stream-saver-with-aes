@@ -24,7 +24,7 @@
                             "src/assets",
                             {
                                 "glob": "sswa-sw.js",
-                                "input": "src/",
+                                "input": "../",
                                 "output": "/"
                             }
                         ],
